@@ -11,7 +11,7 @@ function Listing() {
   const [page, setPage] = useState<MoviePage>({
     content: [],
     last: true,
-    totalPages: 0,
+    totalPages: 1,
     totalElements: 0,
     size: 12,
     number: 0,
