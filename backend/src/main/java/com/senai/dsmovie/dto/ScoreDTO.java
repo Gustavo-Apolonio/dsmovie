@@ -1,37 +1,34 @@
 package com.senai.dsmovie.dto;
 
 public class ScoreDTO {
-	private Long movieId;
-	private String email;
-	private Double score;
-	
-	public ScoreDTO() {
-		
-	}
 
-	public Long getMovieId() {
-		return movieId;
-	}
+  private Long movieId;
+  private String email;
+  private Double score;
 
-	public void setMovieId(Long movieId) {
-		this.movieId = movieId;
-	}
+  public ScoreDTO() {}
 
-	public String getEmail() {
-		return email;
-	}
+  public Long getMovieId() {
+    return movieId;
+  }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+  public void setMovieId(Long movieId) {
+    this.movieId = movieId;
+  }
 
-	public Double getScore() {
-		return score;
-	}
+  public String getEmail() {
+    return email;
+  }
 
-	public void setScore(Double score) {
-		this.score = score;
-	}
-	
-	
+  public void setEmail(String email) {
+    this.email = email;
+  }
+
+  public Double getScore() {
+    return score;
+  }
+
+  public void setScore(Double score) {
+    this.score = score;
+  }
 }
